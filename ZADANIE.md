@@ -17,8 +17,9 @@ Uruchom ponownie kontenery:
 docker compose up --build
 
 
+
 W UI Gradio:
-- wrzuc plik audio,
+- wrzuc plik audio z https://github.com/marcin119a/data/blob/main/Alloy_tts-1_1x_2024-10-28T09_42_03-535Z.mp3,
 - kliknij submit,
 - odbierz transkrypcje wygenerowana przez model `openai/whisper-small`.
 
