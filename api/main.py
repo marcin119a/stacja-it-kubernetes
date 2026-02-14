@@ -2,7 +2,7 @@ import gradio as gr
 
 
 def hello(name: str) -> str:
-    return f"Hello, {name or 'World'}!"
+    return f"Cześć, {name or 'świecie'}!"
 
 
 ui = gr.Interface(
