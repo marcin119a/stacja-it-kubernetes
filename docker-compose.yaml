@@ -1,0 +1,19 @@
+version: "3.8"
+
+services:
+  api:
+    build: ./api
+    ports:
+      - "7860:7860"
+    depends_on:
+      - redis
+
+  worker:
+    build: ./worker
+    depends_on:
+      - redis
+  
+  redis:
+    image: redis
+    ports:
+      - "6379:6379"
